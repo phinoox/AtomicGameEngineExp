@@ -34,7 +34,7 @@
 #include <rapidjson/document.h>
 #include <rapidjson/stringbuffer.h>
 #include <rapidjson/prettywriter.h>
-
+#include <clocale>
 #include "../DebugNew.h"
 
 using namespace rapidjson;
@@ -45,6 +45,7 @@ namespace Atomic
 JSONFile::JSONFile(Context* context) :
     Resource(context)
 {
+    std::setlocale(LC_NUMERIC, "C");
 }
 
 JSONFile::~JSONFile()
