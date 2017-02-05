@@ -28,7 +28,7 @@
             "assemblyOutputPath" : "..\\..\\$ATOMIC_CONFIG$\\Portable\\",
             "projectGuid" : "C74A8ECD-7517-11E6-9B0E-005056C00008",
             "projectTypeGuids" : ["786C830F-07A1-408B-BD7F-6EE04809D6DB", "FAE04EC0-301F-11D3-BF4B-00C04F79EFBC"],
-            "targetFrameworkProfile" : "Profile111",
+            "targetFrameworkProfile" : "Profile44",
             "references" : [
             ],
             "sharedReferences" : [

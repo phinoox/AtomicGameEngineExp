@@ -965,7 +965,7 @@ namespace ToolCore
 
         if (SupportsDesktop())
         {
-            pgroup.CreateChild("TargetFrameworkVersion").SetValue("v4.5");
+            pgroup.CreateChild("TargetFrameworkVersion").SetValue("v4.6");
         }
         else
         {
